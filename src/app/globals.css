@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 40% 98%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 164 59% 48%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 164 59% 40%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 164 59% 48%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 195 40% 3%;
+    --foreground: 210 40% 98%;
+    --card: 195 50% 5%;
+    --card-foreground: 210 40% 98%;
+    --popover: 195 50% 5%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 164 59% 48%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 195 50% 8%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 195 50% 8%;
+    --muted-foreground: 217.9 10.6% 64.9%;
+    --accent: 164 59% 30%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 195 50% 10%;
+    --input: 195 50% 10%;
+    --ring: 164 59% 30%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+.avtar-gradient {
+  background: linear-gradient(180deg, rgba(4, 11, 12, 0) 0%, rgba(4, 11, 12, 0.8) 50%, rgba(4, 11, 12, 1) 100%);
+}
+
+.avtar-grid {
+  background-size: 50px 50px;
+  background-image:
+    linear-gradient(to right, rgba(58, 181, 158, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(58, 181, 158, 0.05) 1px, transparent 1px);
+}

@@ -20,11 +20,11 @@ const Hero = () => {
                 </div>
                 <div className="flex flex-col gap-3 lg:items-center lg:justify-center mt-12 sm:flex-row">
                   <Link href="https://t.me/avtarai_bot" className="items-center relative text-lg focus:ring-[#e0ffe7] hover:text-gray-900 dark:text-white border-2 border-cyan-100 focus:ring-4 font-medium from-[#82bc92] group group-hover:from-[#77d68a] group-hover:to-[#59d973] inline-flex justify-center overflow-hidden  text-gray-900 to-[#6112b5] focus:shadow-lg mb-2 mr-2 w-fit rounded-full" id="hero-landing-cta-button">
-                    <span className="flex items-center justify-center text-white duration-300 ease-in  relative rounded-full transition-all py-2.5 px-5 hover:bg-cyan-100 hover:text-black">Trading bot 
+                    <span className="flex items-center justify-center text-white duration-300 ease-in  relative rounded-full transition-all py-2.5 px-5 hover:bg-cyan-100 hover:text-black">Trading Agent <MdArrowOutward className="ml-2" />
                     </span>
                   </Link>
                   <Link href="https://avtar-solana-web.vercel.app/" className="items-center relative text-lg  focus:ring-[#e0ffe7] hover:text-gray-900 dark:text-white border-2 border-cyan-100 focus:ring-4 font-medium from-[#82bc92] group group-hover:from-[#77d68a] group-hover:to-[#59d973] inline-flex justify-center overflow-hidden  text-gray-900 to-[#6112b5] focus:shadow-lg mb-2 mr-2 w-fit rounded-full" id="hero-landing-cta-button">
-                    <span className="flex items-center justify-center text-white duration-300 ease-in  relative rounded-full transition-all py-2.5 px-5 hover:bg-cyan-100 hover:text-black">AI Agent <MdArrowOutward className="ml-2" />
+                    <span className="flex items-center justify-center text-white duration-300 ease-in  relative rounded-full transition-all py-2.5 px-5 hover:bg-cyan-100 hover:text-black">OnChain Agent <MdArrowOutward className="ml-2" />
                     </span>
                   </Link>
                 </div>

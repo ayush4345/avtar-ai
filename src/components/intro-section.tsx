@@ -7,7 +7,7 @@ const IntroSection = () => {
   return (
     <div className="py-16 bg-avtar-dark">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
-        <h2 className="text-xl text-avtar-blue mb-2 text-center bg-avtar-blue/10 w-fit px-3 mx-auto rounded-full">Introducing Avtar.ai</h2>
+        <h2 className="text-2xl font-semibold text-avtar-blue mb-2 text-center bg-avtar-blue/10 w-fit px-3 mx-auto rounded-full">Introducing Avtar.ai</h2>
         <h3 className="text-2xl md:text-3xl font-bold mb-20 text-center">
           No noise. Just action.
         </h3>
@@ -60,8 +60,8 @@ const IntroSection = () => {
         <p className="text-avtar-blue mb-10 font-mono text-center text-4xl font-bold">
           Crypto is chaos.
         </p>
-        <h3 className="text-2xl md:text-3xl font-mono text-gray-300 font-light mb-20 text-center">
-        <span className="text-avtar-blue font-workSans">Avtar.ai</span>  brings structure.
+        <h3 className="text-2xl md:text-3xl text-gray-300 font-light mb-20 text-center">
+        <span className="text-avtar-blue font-sans">Avtar.ai</span>  brings structure.
           {/* <br/> */}
           <br/>
           Signals, trades, and onchain insights powered by AI.

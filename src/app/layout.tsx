@@ -14,8 +14,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "avtar.ai - Your personal AI agent for crypto and finance",
-  description: "avtar.ai is your AI agent for DeFAI, crypto and finance. Imagine Pump.fun, Virtuals.io, AI agent, crypto signals and finance alphas. Proof of Trading PoT is the world's 1st token model based on trading volume.",
+  title: "Avtar.ai - Your personal AI agent for crypto and finance",
+  description: "Avtar.ai is your AI agent for DeFAI, crypto and finance. Imagine Pump.fun, Virtuals.io, AI agent, crypto signals and finance alphas. Proof of Trading PoT is the world's 1st token model based on trading volume.",
 };
 
 export default function RootLayout({

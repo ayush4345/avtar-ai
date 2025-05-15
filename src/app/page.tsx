@@ -13,7 +13,7 @@ export default function Home() {
         <section className="py-6 text-center bg-black/20">
           <div className="max-w-7xl mx-auto px-6 md:px-12">
             <p className="text-avtar-blue text-4xl font-mono font-light">
-              #DeFAI The next generation crypto x AI for web3.0
+              Blackchain's DeFAI Superapp
             </p>
           </div>
         </section>

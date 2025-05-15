@@ -17,7 +17,7 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 py-4 px-6 md:px-12 bg-avtar-dark/80 backdrop-blur-md">
       <div className="flex items-center justify-between max-w-7xl mx-auto">
         <Link href="/" className="flex items-center">
-          <span className="text-2xl font-bold text-white mr-1">avtar.ai</span>
+          <span className="text-2xl font-bold text-white mr-1">Avtar.ai</span>
         </Link>
 
         {/* <nav className="hidden md:flex items-center space-x-8">

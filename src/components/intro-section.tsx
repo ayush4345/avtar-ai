@@ -7,7 +7,7 @@ const IntroSection = () => {
   return (
     <div className="py-16 bg-avtar-dark">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
-        <h2 className="text-lg text-avtar-blue mb-2 text-center bg-avtar-blue/10 w-fit px-3 mx-auto rounded-full">Introducing avtar.ai</h2>
+        <h2 className="text-lg text-avtar-blue mb-2 text-center bg-avtar-blue/10 w-fit px-3 mx-auto rounded-full">Introducing Avtar.ai</h2>
         <h3 className="text-2xl md:text-3xl font-bold mb-20 text-center">
           No noise. Just action.
         </h3>
@@ -36,7 +36,7 @@ const IntroSection = () => {
 
         <div className="bg-gradient-to-br from-avtar-blue/30 via-avtar-darkBlue/10 to-transparent flex justify-between items-center p-8 md:p-12 rounded-xl mb-20">
           <div className="flex flex-col items-start">
-            <h3 className="text-3xl font-bold mb-8 text-center font-mono">Own personal DeFAI AI agent</h3>
+            <h3 className="text-3xl font-bold mb-8 text-center font-mono">Own personal DeFAI agent</h3>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
               <a href="https://t.me/avtarai_bot" target="_blank" rel="noopener noreferrer"
                 className="w-full sm:w-auto inline-flex justify-center items-center rounded-md px-6 py-2.5 text-sm font-medium
@@ -48,11 +48,11 @@ const IntroSection = () => {
           </div>
           <div className="flex justify-center">
             <Image
-              src="https://ext.same-assets.com/1288700763/2830841477.png"
+              src="/mascot2.png"
               alt="AI Agent Illustration"
               width={150}
               height={200}
-              className="mx-auto"
+              className="mx-auto rounded-md"
             />
           </div>
         </div>

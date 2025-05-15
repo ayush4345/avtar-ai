@@ -64,7 +64,7 @@ const IntroSection = () => {
         <span className="text-avtar-blue font-workSans">Avtar.ai</span>  brings structure.
           {/* <br/> */}
           <br/>
-          Signals, trades, and onchain insights—powered by AI.
+          Signals, trades, and onchain insights powered by AI.
         </h3>
 
         {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-12">

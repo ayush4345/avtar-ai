@@ -10,15 +10,14 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
-        <section className="py-4 text-center">
+        <section className="py-6 text-center bg-black/20">
           <div className="max-w-7xl mx-auto px-6 md:px-12">
-            <p className="text-avtar-green font-bold text-4xl">
+            <p className="text-avtar-blue text-4xl font-mono font-light">
               #DeFAI The next generation crypto x AI for web3.0
             </p>
           </div>
         </section>
         <IntroSection />
-        <PoTSection />
       </main>
       <Footer />
     </div>

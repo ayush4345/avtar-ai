@@ -11,8 +11,6 @@ const workSans = Work_Sans({
 
 const inter = Inter({
   subsets: ["latin"],
-  variable: "--font-inter",
-  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -26,8 +24,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
-      <body className={`${workSans.variable} ${inter.variable} font-sans bg-[#040b0c] text-slate-100`}>
+    <html lang="en" className={`${inter.className} ${workSans.className} dark`}>
+      <body className={`bg-[#040b0c] text-slate-100`}>
         <ClientBody>{children}</ClientBody>
       </body>
     </html>

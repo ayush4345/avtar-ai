@@ -25,7 +25,7 @@ export default function ProofOfTradingPage() {
           <h3 className="text-2xl font-bold text-center mb-12">What are the benefits?</h3>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-24">
-            <div className="bg-avtar-darkGray/30 p-6 rounded-lg border border-avtar-green/10">
+            <div className="bg-avtar-darkGray/30 p-6 rounded-lg border border-avtar-blue/10">
               <Image
                 src="https://ext.same-assets.com/1288700763/181246865.png"
                 alt="No token dumping"
@@ -38,7 +38,7 @@ export default function ProofOfTradingPage() {
               </p>
             </div>
 
-            <div className="bg-avtar-darkGray/30 p-6 rounded-lg border border-avtar-green/10">
+            <div className="bg-avtar-darkGray/30 p-6 rounded-lg border border-avtar-blue/10">
               <Image
                 src="https://ext.same-assets.com/1288700763/1617385747.png"
                 alt="Token mechanics"
@@ -51,7 +51,7 @@ export default function ProofOfTradingPage() {
               </p>
             </div>
 
-            <div className="bg-avtar-darkGray/30 p-6 rounded-lg border border-avtar-green/10">
+            <div className="bg-avtar-darkGray/30 p-6 rounded-lg border border-avtar-blue/10">
               <Image
                 src="https://ext.same-assets.com/1288700763/136039366.png"
                 alt="Trading incentives"
@@ -64,7 +64,7 @@ export default function ProofOfTradingPage() {
               </p>
             </div>
 
-            <div className="bg-avtar-darkGray/30 p-6 rounded-lg border border-avtar-green/10">
+            <div className="bg-avtar-darkGray/30 p-6 rounded-lg border border-avtar-blue/10">
               <Image
                 src="https://ext.same-assets.com/1288700763/4139252041.png"
                 alt="Game theory"
@@ -87,7 +87,7 @@ export default function ProofOfTradingPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-24">
             <div className="text-center">
-              <div className="bg-avtar-green/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="bg-avtar-blue/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z" fill="#3ab59e"/>
                   <path d="M12 17l-5-5h10l-5 5z" fill="#3ab59e"/>
@@ -99,7 +99,7 @@ export default function ProofOfTradingPage() {
             </div>
 
             <div className="text-center">
-              <div className="bg-avtar-green/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="bg-avtar-blue/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z" fill="#3ab59e"/>
                   <path d="M7 12h2v5H7v-5zm4-7h2v12h-2V5zm4 4h2v8h-2V9z" fill="#3ab59e"/>
@@ -111,7 +111,7 @@ export default function ProofOfTradingPage() {
             </div>
 
             <div className="text-center">
-              <div className="bg-avtar-green/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="bg-avtar-blue/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M3 13h8v2H3v-2zm0-4h12v2H3V9zm0-4h12v2H3V5zm15 7l-5-5v10l5-5z" fill="#3ab59e"/>
                 </svg>
@@ -122,7 +122,7 @@ export default function ProofOfTradingPage() {
             </div>
 
             <div className="text-center">
-              <div className="bg-avtar-green/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="bg-avtar-blue/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" fill="#3ab59e"/>
                 </svg>
@@ -136,7 +136,7 @@ export default function ProofOfTradingPage() {
           <h3 className="text-2xl font-bold text-center mb-12">What is $avtar & $oavtar?</h3>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-            <div className="bg-avtar-darkGray/30 p-8 rounded-lg border border-avtar-green/10">
+            <div className="bg-avtar-darkGray/30 p-8 rounded-lg border border-avtar-blue/10">
               <h4 className="text-xl font-bold mb-6">$avtar</h4>
               <ul className="space-y-4">
                 <li className="flex items-start">
@@ -182,7 +182,7 @@ export default function ProofOfTradingPage() {
               </ul>
             </div>
 
-            <div className="bg-avtar-darkGray/30 p-8 rounded-lg border border-avtar-green/10">
+            <div className="bg-avtar-darkGray/30 p-8 rounded-lg border border-avtar-blue/10">
               <h4 className="text-xl font-bold mb-6">$oavtar</h4>
               <ul className="space-y-4">
                 <li className="flex items-start">
@@ -233,7 +233,7 @@ export default function ProofOfTradingPage() {
             <Link
               href="https://avtar.gitbook.io/docs/avtar-token/introduction"
               target="_blank"
-              className="inline-flex items-center gap-2 text-avtar-green hover:text-avtar-green/80 transition-colors px-6 py-3 border border-avtar-green/20 rounded-lg"
+              className="inline-flex items-center gap-2 text-avtar-blue hover:text-avtar-blue/80 transition-colors px-6 py-3 border border-avtar-blue/20 rounded-lg"
             >
               <span>Read More</span>
               <ArrowRight size={16} />

@@ -56,9 +56,9 @@ module.exports = {
           foreground: "hsl(var(--card-foreground))",
         },
         avtar: {
-          green: "#3ab59e",
-          dark: "#040b0c",
-          darkGreen: "#0f3531",
+          blue: "#24ABE5",
+          dark: "#0C1821",
+          darkBlue: "#1379A4",
           gray: "#79838c",
           darkGray: "#0f232c",
         },

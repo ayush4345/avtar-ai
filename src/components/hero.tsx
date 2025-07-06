@@ -50,12 +50,12 @@ const Hero = () => {
                     <FaRobot className="mr-2" /> Trading Agent <MdArrowOutward className="ml-2 group-hover:translate-x-1 transition-transform" />
                   </span>
                 </Link>
-                <Link href="https://avtar-solana-web.vercel.app/" 
+                {/* <Link href="https://avtar-solana-web.vercel.app/" 
                   className="relative px-8 py-4 rounded-full border border-[#00C3FF]/30 text-white font-medium text-lg inline-flex items-center justify-center hover:bg-[#00C3FF]/10 transition-all duration-300 group">
                   <span className="flex items-center justify-center">
                     <BiLineChart className="mr-2" /> OnChain Agent <MdArrowOutward className="ml-2 group-hover:translate-x-1 transition-transform" />
                   </span>
-                </Link>
+                </Link> */}
               </div>
               
               {/* Stats or features */}
